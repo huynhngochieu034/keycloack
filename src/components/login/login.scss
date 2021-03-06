@@ -1,0 +1,36 @@
+$mau-nau-do: #bf0000;
+$kich-thuoc: 300px;
+
+.Login {
+    width: $kich-thuoc;
+    height: $kich-thuoc;
+    color: burlywood;
+    background-color: forestgreen;
+    border-radius: 10px;
+    margin: auto;
+    justify-content: center;
+
+    label {
+        color: #000;
+        padding: 10px;
+    };
+    .username {
+        border-radius: 10px;
+    }
+
+    .password {
+        border-radius: 10px;
+    }
+
+    .login{
+        width: 80px;
+        border-radius: 10px;
+        text-align: center;
+        margin-left: 120px;
+        
+    }
+
+    .login:hover {
+        color:fuchsia;
+    }
+}
